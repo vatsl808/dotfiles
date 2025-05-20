@@ -68,7 +68,7 @@ case $1 in
         ;;
     down)
         wpctl set-mute @DEFAULT_AUDIO_SINK@ 0
-        wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.10-
+        wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05-
         send_notification
         ;;
     mute)
