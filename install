@@ -1,6 +1,0 @@
-#!/bin/bash
-set -e
-
-echo "Running setup.sh from install script..."
-bash "$(dirname "$0")/setup.sh"
-
